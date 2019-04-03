@@ -1,0 +1,1581 @@
+{
+  "mainPanelIcon": "",
+  "layerInfos": [
+    {
+      "layer": "91961e42d6294d47abb8a0c07b164684",
+      "label": "Vivienda Proteccion Publica Precio Limitado",
+      "refresh": false,
+      "url": "https://services9.arcgis.com/L48elPyUkzKknhDs/arcgis/rest/services/PropuestaCN01_VD_WFL1/FeatureServer/0",
+      "id": "91961e42d6294d47abb8a0c07b164684",
+      "symbolData": {
+        "symbolType": "EsriSymbol",
+        "symbol": {
+          "color": [
+            206,
+            147,
+            216,
+            71
+          ],
+          "outline": {
+            "color": [
+              206,
+              147,
+              216,
+              255
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          },
+          "type": "esriSFS",
+          "style": "esriSFSSolid"
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            206,
+            147,
+            216,
+            71
+          ],
+          "outline": {
+            "color": [
+              206,
+              147,
+              216,
+              255
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          },
+          "type": "esriSFS",
+          "style": "esriSFSSolid"
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {},
+          "symbol": {
+            "style": "solid",
+            "color": {
+              "g": 199,
+              "b": 198,
+              "a": 0.47058823529411764
+            },
+            "outline": {
+              "width": 1,
+              "color": {
+                "r": 207,
+                "g": 101,
+                "b": 99
+              },
+              "style": "solid",
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(255, 199, 198)\" fill-opacity=\"0.47058823529411764\" stroke=\"rgb(207, 101, 99)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></path></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(206, 147, 216)\" fill-opacity=\"0.2784313725490196\" stroke=\"rgb(206, 147, 216)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+        "userDefinedSymbol": true,
+        "layerId": "91961e42d6294d47abb8a0c07b164684",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "Pisos",
+              "label": "Total de Pisos"
+            },
+            {
+              "name": "Total_d_UniFuncional_edificio",
+              "label": "Total de Viviendas"
+            },
+            {
+              "name": "CantPersonas_x_edif",
+              "label": "Promedio de Personas que lo habitaran"
+            }
+          ],
+          "groupField": {
+            "name": "OBJECTID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          }
+        }
+      },
+      "geometryType": "esriGeometryPolygon",
+      "parentLayerID": "91961e42d6294d47abb8a0c07b164684",
+      "renderer": {
+        "_cache": {},
+        "symbol": {
+          "style": "solid",
+          "color": {
+            "r": 206,
+            "g": 147,
+            "b": 216,
+            "a": 0.2784313725490196
+          },
+          "outline": {
+            "width": 1,
+            "color": {
+              "r": 206,
+              "g": 147,
+              "b": 216
+            },
+            "style": "solid",
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "editable": false,
+          "nullable": false
+        },
+        {
+          "name": "Pisos",
+          "type": "esriFieldTypeInteger",
+          "alias": "Pisos",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "UsoDCN",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "UsosDCN",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Titularidad",
+          "type": "esriFieldTypeString",
+          "alias": "Titularidad",
+          "length": 255,
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "UsoDCN2",
+          "type": "esriFieldTypeString",
+          "alias": "Uso DCN2",
+          "length": 255,
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "M2Totales",
+          "type": "esriFieldTypeSingle",
+          "alias": "Total Superficie Cubierta",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "id_Constru",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "identificacion de Edificacion",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "dentrodeMZA",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "dentrodeMZA",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "M2Totales_Edificacion",
+          "type": "esriFieldTypeInteger",
+          "alias": "M2Totales_Edificacion",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Cantidad_unifuncional_x_piso",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Cant_unifunc_x_piso",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Total_d_UniFuncional_edificio",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Total_d_UniFuncional_x_edif",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "M2_d_UnidadFuncional",
+          "type": "esriFieldTypeInteger",
+          "alias": "M2_d_UnidadFuncional",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "idCDSSCC",
+          "type": "esriFieldTypeString",
+          "alias": "idCDSSCC",
+          "length": 255,
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "PobTotalSSCC",
+          "type": "esriFieldTypeDouble",
+          "alias": "PobTotalSSCC",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "CantPersonas_x_edif",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CantPersonas_x_edif",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area",
+          "editable": false,
+          "nullable": true
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length",
+          "editable": false,
+          "nullable": true
+        }
+      ],
+      "oidFieldName": "OBJECTID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "title": "{Pisos}",
+          "mediaInfos": [],
+          "fieldInfos": [
+            {
+              "fieldName": "OBJECTID",
+              "visible": true,
+              "isEditable": false,
+              "label": "OBJECTID"
+            },
+            {
+              "fieldName": "Pisos",
+              "visible": true,
+              "isEditable": true,
+              "label": "Pisos"
+            },
+            {
+              "fieldName": "UsoDCN",
+              "visible": true,
+              "isEditable": true,
+              "label": "UsosDCN"
+            },
+            {
+              "fieldName": "Titularidad",
+              "visible": true,
+              "isEditable": true,
+              "label": "Titularidad"
+            },
+            {
+              "fieldName": "UsoDCN2",
+              "visible": true,
+              "isEditable": true,
+              "label": "Uso DCN2"
+            },
+            {
+              "fieldName": "M2Totales",
+              "visible": true,
+              "isEditable": true,
+              "label": "Total Superficie Cubierta"
+            },
+            {
+              "fieldName": "id_Constru",
+              "visible": true,
+              "isEditable": true,
+              "label": "identificacion de Edificacion"
+            },
+            {
+              "fieldName": "dentrodeMZA",
+              "visible": true,
+              "isEditable": true,
+              "label": "dentrodeMZA"
+            },
+            {
+              "fieldName": "M2Totales_Edificacion",
+              "visible": true,
+              "isEditable": true,
+              "label": "M2Totales_Edificacion"
+            },
+            {
+              "fieldName": "Cantidad_unifuncional_x_piso",
+              "visible": true,
+              "isEditable": true,
+              "label": "Cant_unifunc_x_piso"
+            },
+            {
+              "fieldName": "Total_d_UniFuncional_edificio",
+              "visible": true,
+              "isEditable": true,
+              "label": "Total_d_UniFuncional_x_edif"
+            },
+            {
+              "fieldName": "M2_d_UnidadFuncional",
+              "visible": true,
+              "isEditable": true,
+              "label": "M2_d_UnidadFuncional"
+            },
+            {
+              "fieldName": "idCDSSCC",
+              "visible": true,
+              "isEditable": true,
+              "label": "idCDSSCC"
+            },
+            {
+              "fieldName": "PobTotalSSCC",
+              "visible": true,
+              "isEditable": true,
+              "label": "PobTotalSSCC"
+            },
+            {
+              "fieldName": "CantPersonas_x_edif",
+              "visible": true,
+              "isEditable": true,
+              "label": "CantPersonas_x_edif"
+            },
+            {
+              "fieldName": "Shape__Area",
+              "visible": true,
+              "isEditable": false,
+              "label": "Shape__Area"
+            },
+            {
+              "fieldName": "Shape__Length",
+              "visible": true,
+              "isEditable": false,
+              "label": "Shape__Length"
+            }
+          ],
+          "popupElements": [
+            {
+              "type": "fields"
+            }
+          ],
+          "expressionInfos": []
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "objectid": "OBJECTID",
+          "pisos": "Pisos",
+          "usodcn": "UsosDCN",
+          "titularidad": "Titularidad",
+          "usodcn2": "Uso DCN2",
+          "m2totales": "Total Superficie Cubierta",
+          "id_constru": "identificacion de Edificacion",
+          "dentrodemza": "dentrodeMZA",
+          "m2totales_edificacion": "M2Totales_Edificacion",
+          "cantidad_unifuncional_x_piso": "Cant_unifunc_x_piso",
+          "total_d_unifuncional_edificio": "Total_d_UniFuncional_x_edif",
+          "m2_d_unidadfuncional": "M2_d_UnidadFuncional",
+          "idcdsscc": "idCDSSCC",
+          "pobtotalsscc": "PobTotalSSCC",
+          "cantpersonas_x_edif": "CantPersonas_x_edif",
+          "shape__area": "Shape__Area",
+          "shape__length": "Shape__Length"
+        },
+        "_fieldsMap": {
+          "objectid": {
+            "fieldName": "OBJECTID",
+            "visible": true,
+            "isEditable": false,
+            "label": "OBJECTID"
+          },
+          "pisos": {
+            "fieldName": "Pisos",
+            "visible": true,
+            "isEditable": true,
+            "label": "Pisos"
+          },
+          "usodcn": {
+            "fieldName": "UsoDCN",
+            "visible": true,
+            "isEditable": true,
+            "label": "UsosDCN"
+          },
+          "titularidad": {
+            "fieldName": "Titularidad",
+            "visible": true,
+            "isEditable": true,
+            "label": "Titularidad"
+          },
+          "usodcn2": {
+            "fieldName": "UsoDCN2",
+            "visible": true,
+            "isEditable": true,
+            "label": "Uso DCN2"
+          },
+          "m2totales": {
+            "fieldName": "M2Totales",
+            "visible": true,
+            "isEditable": true,
+            "label": "Total Superficie Cubierta"
+          },
+          "id_constru": {
+            "fieldName": "id_Constru",
+            "visible": true,
+            "isEditable": true,
+            "label": "identificacion de Edificacion"
+          },
+          "dentrodemza": {
+            "fieldName": "dentrodeMZA",
+            "visible": true,
+            "isEditable": true,
+            "label": "dentrodeMZA"
+          },
+          "m2totales_edificacion": {
+            "fieldName": "M2Totales_Edificacion",
+            "visible": true,
+            "isEditable": true,
+            "label": "M2Totales_Edificacion"
+          },
+          "cantidad_unifuncional_x_piso": {
+            "fieldName": "Cantidad_unifuncional_x_piso",
+            "visible": true,
+            "isEditable": true,
+            "label": "Cant_unifunc_x_piso"
+          },
+          "total_d_unifuncional_edificio": {
+            "fieldName": "Total_d_UniFuncional_edificio",
+            "visible": true,
+            "isEditable": true,
+            "label": "Total_d_UniFuncional_x_edif"
+          },
+          "m2_d_unidadfuncional": {
+            "fieldName": "M2_d_UnidadFuncional",
+            "visible": true,
+            "isEditable": true,
+            "label": "M2_d_UnidadFuncional"
+          },
+          "idcdsscc": {
+            "fieldName": "idCDSSCC",
+            "visible": true,
+            "isEditable": true,
+            "label": "idCDSSCC"
+          },
+          "pobtotalsscc": {
+            "fieldName": "PobTotalSSCC",
+            "visible": true,
+            "isEditable": true,
+            "label": "PobTotalSSCC"
+          },
+          "cantpersonas_x_edif": {
+            "fieldName": "CantPersonas_x_edif",
+            "visible": true,
+            "isEditable": true,
+            "label": "CantPersonas_x_edif"
+          },
+          "shape__area": {
+            "fieldName": "Shape__Area",
+            "visible": true,
+            "isEditable": false,
+            "label": "Shape__Area"
+          },
+          "shape__length": {
+            "fieldName": "Shape__Length",
+            "visible": true,
+            "isEditable": false,
+            "label": "Shape__Length"
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"color\":[206,147,216,71],\"outline\":{\"color\":[206,147,216,255],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"},\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\"}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(206, 147, 216)\" fill-opacity=\"0.2784313725490196\" stroke=\"rgb(206, 147, 216)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(206, 147, 216)\" fill-opacity=\"0.2784313725490196\" stroke=\"rgb(206, 147, 216)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojogfxstrokestyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></path></svg></div>"
+    },
+    {
+      "layer": "530e37ccc72a4fadae9075ee2409241d",
+      "label": "Vivienda Protección Publica Precio Básico",
+      "refresh": false,
+      "url": "https://services9.arcgis.com/L48elPyUkzKknhDs/arcgis/rest/services/PropuestaCN01_VD_WFL1/FeatureServer/1",
+      "id": "530e37ccc72a4fadae9075ee2409241d",
+      "symbolData": {
+        "symbolType": "EsriSymbol",
+        "symbol": {
+          "color": [
+            244,
+            143,
+            177,
+            64
+          ],
+          "outline": {
+            "color": [
+              244,
+              143,
+              177,
+              255
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          },
+          "type": "esriSFS",
+          "style": "esriSFSSolid"
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            244,
+            143,
+            177,
+            64
+          ],
+          "outline": {
+            "color": [
+              244,
+              143,
+              177,
+              255
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          },
+          "type": "esriSFS",
+          "style": "esriSFSSolid"
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {},
+          "symbol": {
+            "style": "solid",
+            "color": {
+              "r": 244,
+              "g": 143,
+              "b": 177,
+              "a": 0.25098039215686274
+            },
+            "outline": {
+              "width": 1,
+              "color": {
+                "r": 244,
+                "g": 143,
+                "b": 177
+              },
+              "style": "solid",
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(244, 143, 177)\" fill-opacity=\"0.25098039215686274\" stroke=\"rgb(244, 143, 177)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></path></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(244, 143, 177)\" fill-opacity=\"0.25098039215686274\" stroke=\"rgb(244, 143, 177)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+        "userDefinedSymbol": true,
+        "layerId": "530e37ccc72a4fadae9075ee2409241d",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "Pisos",
+              "label": "Total de Pisos"
+            },
+            {
+              "name": "Total_d_UniFuncional_edificio",
+              "label": "Total de Viviendas"
+            },
+            {
+              "name": "CantPersonas_x_edif",
+              "label": "Pomedio de Personas que lo habitaran"
+            }
+          ],
+          "groupField": {
+            "name": "OBJECTID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          }
+        }
+      },
+      "geometryType": "esriGeometryPolygon",
+      "parentLayerID": "530e37ccc72a4fadae9075ee2409241d",
+      "renderer": {
+        "_cache": {},
+        "symbol": {
+          "style": "solid",
+          "color": {
+            "r": 244,
+            "g": 143,
+            "b": 177,
+            "a": 0.25098039215686274
+          },
+          "outline": {
+            "width": 1,
+            "color": {
+              "r": 244,
+              "g": 143,
+              "b": 177
+            },
+            "style": "solid",
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "editable": false,
+          "nullable": false
+        },
+        {
+          "name": "Pisos",
+          "type": "esriFieldTypeInteger",
+          "alias": "Pisos",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "UsoDCN",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "UsosDCN",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Titularidad",
+          "type": "esriFieldTypeString",
+          "alias": "Titularidad",
+          "length": 255,
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "UsoDCN2",
+          "type": "esriFieldTypeString",
+          "alias": "Uso DCN2",
+          "length": 255,
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "M2Totales",
+          "type": "esriFieldTypeSingle",
+          "alias": "Total Superficie Cubierta",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "id_Constru",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "identificacion de Edificacion",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "dentrodeMZA",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "dentrodeMZA",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "M2Totales_Edificacion",
+          "type": "esriFieldTypeInteger",
+          "alias": "M2Totales_Edificacion",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Cantidad_unifuncional_x_piso",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Cant_unifunc_x_piso",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Total_d_UniFuncional_edificio",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Total_d_UniFuncional_x_edif",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "M2_d_UnidadFuncional",
+          "type": "esriFieldTypeInteger",
+          "alias": "M2_d_UnidadFuncional",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "idCDSSCC",
+          "type": "esriFieldTypeString",
+          "alias": "idCDSSCC",
+          "length": 255,
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "PobTotalSSCC",
+          "type": "esriFieldTypeDouble",
+          "alias": "PobTotalSSCC",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "CantPersonas_x_edif",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CantPersonas_x_edif",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area",
+          "editable": false,
+          "nullable": true
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length",
+          "editable": false,
+          "nullable": true
+        }
+      ],
+      "oidFieldName": "OBJECTID",
+      "subLayerId": 1,
+      "infoTemplate": {
+        "info": {
+          "title": "{Pisos}",
+          "mediaInfos": [],
+          "fieldInfos": [
+            {
+              "fieldName": "OBJECTID",
+              "visible": true,
+              "isEditable": false,
+              "label": "OBJECTID"
+            },
+            {
+              "fieldName": "Pisos",
+              "visible": true,
+              "isEditable": true,
+              "label": "Pisos"
+            },
+            {
+              "fieldName": "UsoDCN",
+              "visible": true,
+              "isEditable": true,
+              "label": "UsosDCN"
+            },
+            {
+              "fieldName": "Titularidad",
+              "visible": true,
+              "isEditable": true,
+              "label": "Titularidad"
+            },
+            {
+              "fieldName": "UsoDCN2",
+              "visible": true,
+              "isEditable": true,
+              "label": "Uso DCN2"
+            },
+            {
+              "fieldName": "M2Totales",
+              "visible": true,
+              "isEditable": true,
+              "label": "Total Superficie Cubierta"
+            },
+            {
+              "fieldName": "id_Constru",
+              "visible": true,
+              "isEditable": true,
+              "label": "identificacion de Edificacion"
+            },
+            {
+              "fieldName": "dentrodeMZA",
+              "visible": true,
+              "isEditable": true,
+              "label": "dentrodeMZA"
+            },
+            {
+              "fieldName": "M2Totales_Edificacion",
+              "visible": true,
+              "isEditable": true,
+              "label": "M2Totales_Edificacion"
+            },
+            {
+              "fieldName": "Cantidad_unifuncional_x_piso",
+              "visible": true,
+              "isEditable": true,
+              "label": "Cant_unifunc_x_piso"
+            },
+            {
+              "fieldName": "Total_d_UniFuncional_edificio",
+              "visible": true,
+              "isEditable": true,
+              "label": "Total_d_UniFuncional_x_edif"
+            },
+            {
+              "fieldName": "M2_d_UnidadFuncional",
+              "visible": true,
+              "isEditable": true,
+              "label": "M2_d_UnidadFuncional"
+            },
+            {
+              "fieldName": "idCDSSCC",
+              "visible": true,
+              "isEditable": true,
+              "label": "idCDSSCC"
+            },
+            {
+              "fieldName": "PobTotalSSCC",
+              "visible": true,
+              "isEditable": true,
+              "label": "PobTotalSSCC"
+            },
+            {
+              "fieldName": "CantPersonas_x_edif",
+              "visible": true,
+              "isEditable": true,
+              "label": "CantPersonas_x_edif"
+            },
+            {
+              "fieldName": "Shape__Area",
+              "visible": true,
+              "isEditable": false,
+              "label": "Shape__Area"
+            },
+            {
+              "fieldName": "Shape__Length",
+              "visible": true,
+              "isEditable": false,
+              "label": "Shape__Length"
+            }
+          ],
+          "popupElements": [
+            {
+              "type": "fields"
+            }
+          ],
+          "expressionInfos": []
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "objectid": "OBJECTID",
+          "pisos": "Pisos",
+          "usodcn": "UsosDCN",
+          "titularidad": "Titularidad",
+          "usodcn2": "Uso DCN2",
+          "m2totales": "Total Superficie Cubierta",
+          "id_constru": "identificacion de Edificacion",
+          "dentrodemza": "dentrodeMZA",
+          "m2totales_edificacion": "M2Totales_Edificacion",
+          "cantidad_unifuncional_x_piso": "Cant_unifunc_x_piso",
+          "total_d_unifuncional_edificio": "Total_d_UniFuncional_x_edif",
+          "m2_d_unidadfuncional": "M2_d_UnidadFuncional",
+          "idcdsscc": "idCDSSCC",
+          "pobtotalsscc": "PobTotalSSCC",
+          "cantpersonas_x_edif": "CantPersonas_x_edif",
+          "shape__area": "Shape__Area",
+          "shape__length": "Shape__Length"
+        },
+        "_fieldsMap": {
+          "objectid": {
+            "fieldName": "OBJECTID",
+            "visible": true,
+            "isEditable": false,
+            "label": "OBJECTID"
+          },
+          "pisos": {
+            "fieldName": "Pisos",
+            "visible": true,
+            "isEditable": true,
+            "label": "Pisos"
+          },
+          "usodcn": {
+            "fieldName": "UsoDCN",
+            "visible": true,
+            "isEditable": true,
+            "label": "UsosDCN"
+          },
+          "titularidad": {
+            "fieldName": "Titularidad",
+            "visible": true,
+            "isEditable": true,
+            "label": "Titularidad"
+          },
+          "usodcn2": {
+            "fieldName": "UsoDCN2",
+            "visible": true,
+            "isEditable": true,
+            "label": "Uso DCN2"
+          },
+          "m2totales": {
+            "fieldName": "M2Totales",
+            "visible": true,
+            "isEditable": true,
+            "label": "Total Superficie Cubierta"
+          },
+          "id_constru": {
+            "fieldName": "id_Constru",
+            "visible": true,
+            "isEditable": true,
+            "label": "identificacion de Edificacion"
+          },
+          "dentrodemza": {
+            "fieldName": "dentrodeMZA",
+            "visible": true,
+            "isEditable": true,
+            "label": "dentrodeMZA"
+          },
+          "m2totales_edificacion": {
+            "fieldName": "M2Totales_Edificacion",
+            "visible": true,
+            "isEditable": true,
+            "label": "M2Totales_Edificacion"
+          },
+          "cantidad_unifuncional_x_piso": {
+            "fieldName": "Cantidad_unifuncional_x_piso",
+            "visible": true,
+            "isEditable": true,
+            "label": "Cant_unifunc_x_piso"
+          },
+          "total_d_unifuncional_edificio": {
+            "fieldName": "Total_d_UniFuncional_edificio",
+            "visible": true,
+            "isEditable": true,
+            "label": "Total_d_UniFuncional_x_edif"
+          },
+          "m2_d_unidadfuncional": {
+            "fieldName": "M2_d_UnidadFuncional",
+            "visible": true,
+            "isEditable": true,
+            "label": "M2_d_UnidadFuncional"
+          },
+          "idcdsscc": {
+            "fieldName": "idCDSSCC",
+            "visible": true,
+            "isEditable": true,
+            "label": "idCDSSCC"
+          },
+          "pobtotalsscc": {
+            "fieldName": "PobTotalSSCC",
+            "visible": true,
+            "isEditable": true,
+            "label": "PobTotalSSCC"
+          },
+          "cantpersonas_x_edif": {
+            "fieldName": "CantPersonas_x_edif",
+            "visible": true,
+            "isEditable": true,
+            "label": "CantPersonas_x_edif"
+          },
+          "shape__area": {
+            "fieldName": "Shape__Area",
+            "visible": true,
+            "isEditable": false,
+            "label": "Shape__Area"
+          },
+          "shape__length": {
+            "fieldName": "Shape__Length",
+            "visible": true,
+            "isEditable": false,
+            "label": "Shape__Length"
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"color\":[244,143,177,64],\"outline\":{\"color\":[244,143,177,255],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"},\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\"}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(244, 143, 177)\" fill-opacity=\"0.25098039215686274\" stroke=\"rgb(244, 143, 177)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(244, 143, 177)\" fill-opacity=\"0.25098039215686274\" stroke=\"rgb(244, 143, 177)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></path></svg></div>"
+    },
+    {
+      "layer": "7f592f525c0242419805a9e241cc3499",
+      "label": "Vivienda Libre",
+      "refresh": false,
+      "url": "https://services9.arcgis.com/L48elPyUkzKknhDs/arcgis/rest/services/PropuestaCN01_VD_WFL1/FeatureServer/2",
+      "id": "7f592f525c0242419805a9e241cc3499",
+      "symbolData": {
+        "symbolType": "EsriSymbol",
+        "symbol": {
+          "color": [
+            159,
+            121,
+            218,
+            66
+          ],
+          "outline": {
+            "color": [
+              159,
+              121,
+              218,
+              255
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          },
+          "type": "esriSFS",
+          "style": "esriSFSSolid"
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "color": [
+            159,
+            121,
+            218,
+            66
+          ],
+          "outline": {
+            "color": [
+              159,
+              121,
+              218,
+              255
+            ],
+            "width": 0.75,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          },
+          "type": "esriSFS",
+          "style": "esriSFSSolid"
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {},
+          "symbol": {
+            "style": "solid",
+            "color": {
+              "r": 192,
+              "g": 80,
+              "b": 77,
+              "a": 0.25882352941176473
+            },
+            "outline": {
+              "width": 1,
+              "color": {
+                "r": 160,
+                "g": 63,
+                "b": 60
+              },
+              "style": "solid",
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(192, 80, 77)\" fill-opacity=\"0.25882352941176473\" stroke=\"rgb(160, 63, 60)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></path></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(159, 121, 218)\" fill-opacity=\"0.25882352941176473\" stroke=\"rgb(159, 121, 218)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+        "userDefinedSymbol": true,
+        "layerId": "7f592f525c0242419805a9e241cc3499",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "Pisos",
+              "label": "Total de Pisos"
+            },
+            {
+              "name": "Total_d_UniFuncional_edificio",
+              "label": "Total de Viviendas"
+            },
+            {
+              "name": "CantPersonas_x_edif",
+              "label": "Promedio de Personas que lo habitaran"
+            }
+          ],
+          "groupField": {
+            "name": "OBJECTID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          }
+        }
+      },
+      "geometryType": "esriGeometryPolygon",
+      "parentLayerID": "7f592f525c0242419805a9e241cc3499",
+      "renderer": {
+        "_cache": {},
+        "symbol": {
+          "style": "solid",
+          "color": {
+            "r": 159,
+            "g": 121,
+            "b": 218,
+            "a": 0.25882352941176473
+          },
+          "outline": {
+            "width": 1,
+            "color": {
+              "r": 159,
+              "g": 121,
+              "b": 218
+            },
+            "style": "solid",
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "editable": false,
+          "nullable": false
+        },
+        {
+          "name": "Pisos",
+          "type": "esriFieldTypeInteger",
+          "alias": "Pisos",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "UsoDCN",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "UsosDCN",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Titularidad",
+          "type": "esriFieldTypeString",
+          "alias": "Titularidad",
+          "length": 255,
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "UsoDCN2",
+          "type": "esriFieldTypeString",
+          "alias": "Uso DCN2",
+          "length": 255,
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "M2Totales",
+          "type": "esriFieldTypeSingle",
+          "alias": "Total Superficie Cubierta",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "id_Constru",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "identificacion de Edificacion",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "dentrodeMZA",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "dentrodeMZA",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "M2Totales_Edificacion",
+          "type": "esriFieldTypeInteger",
+          "alias": "M2Totales_Edificacion",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Cantidad_unifuncional_x_piso",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Cant_unifunc_x_piso",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Total_d_UniFuncional_edificio",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Total_d_UniFuncional_x_edif",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "M2_d_UnidadFuncional",
+          "type": "esriFieldTypeInteger",
+          "alias": "M2_d_UnidadFuncional",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "idCDSSCC",
+          "type": "esriFieldTypeString",
+          "alias": "idCDSSCC",
+          "length": 255,
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "PobTotalSSCC",
+          "type": "esriFieldTypeDouble",
+          "alias": "PobTotalSSCC",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "CantPersonas_x_edif",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CantPersonas_x_edif",
+          "editable": true,
+          "nullable": true
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area",
+          "editable": false,
+          "nullable": true
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length",
+          "editable": false,
+          "nullable": true
+        }
+      ],
+      "oidFieldName": "OBJECTID",
+      "subLayerId": 2,
+      "infoTemplate": {
+        "info": {
+          "title": "{Pisos}",
+          "mediaInfos": [],
+          "fieldInfos": [
+            {
+              "fieldName": "OBJECTID",
+              "visible": true,
+              "isEditable": false,
+              "label": "OBJECTID"
+            },
+            {
+              "fieldName": "Pisos",
+              "visible": true,
+              "isEditable": true,
+              "label": "Pisos"
+            },
+            {
+              "fieldName": "UsoDCN",
+              "visible": true,
+              "isEditable": true,
+              "label": "UsosDCN"
+            },
+            {
+              "fieldName": "Titularidad",
+              "visible": true,
+              "isEditable": true,
+              "label": "Titularidad"
+            },
+            {
+              "fieldName": "UsoDCN2",
+              "visible": true,
+              "isEditable": true,
+              "label": "Uso DCN2"
+            },
+            {
+              "fieldName": "M2Totales",
+              "visible": true,
+              "isEditable": true,
+              "label": "Total Superficie Cubierta"
+            },
+            {
+              "fieldName": "id_Constru",
+              "visible": true,
+              "isEditable": true,
+              "label": "identificacion de Edificacion"
+            },
+            {
+              "fieldName": "dentrodeMZA",
+              "visible": true,
+              "isEditable": true,
+              "label": "dentrodeMZA"
+            },
+            {
+              "fieldName": "M2Totales_Edificacion",
+              "visible": true,
+              "isEditable": true,
+              "label": "M2Totales_Edificacion"
+            },
+            {
+              "fieldName": "Cantidad_unifuncional_x_piso",
+              "visible": true,
+              "isEditable": true,
+              "label": "Cant_unifunc_x_piso"
+            },
+            {
+              "fieldName": "Total_d_UniFuncional_edificio",
+              "visible": true,
+              "isEditable": true,
+              "label": "Total_d_UniFuncional_x_edif"
+            },
+            {
+              "fieldName": "M2_d_UnidadFuncional",
+              "visible": true,
+              "isEditable": true,
+              "label": "M2_d_UnidadFuncional"
+            },
+            {
+              "fieldName": "idCDSSCC",
+              "visible": true,
+              "isEditable": true,
+              "label": "idCDSSCC"
+            },
+            {
+              "fieldName": "PobTotalSSCC",
+              "visible": true,
+              "isEditable": true,
+              "label": "PobTotalSSCC"
+            },
+            {
+              "fieldName": "CantPersonas_x_edif",
+              "visible": true,
+              "isEditable": true,
+              "label": "CantPersonas_x_edif"
+            },
+            {
+              "fieldName": "Shape__Area",
+              "visible": true,
+              "isEditable": false,
+              "label": "Shape__Area"
+            },
+            {
+              "fieldName": "Shape__Length",
+              "visible": true,
+              "isEditable": false,
+              "label": "Shape__Length"
+            }
+          ],
+          "popupElements": [
+            {
+              "type": "fields"
+            }
+          ],
+          "expressionInfos": []
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "objectid": "OBJECTID",
+          "pisos": "Pisos",
+          "usodcn": "UsosDCN",
+          "titularidad": "Titularidad",
+          "usodcn2": "Uso DCN2",
+          "m2totales": "Total Superficie Cubierta",
+          "id_constru": "identificacion de Edificacion",
+          "dentrodemza": "dentrodeMZA",
+          "m2totales_edificacion": "M2Totales_Edificacion",
+          "cantidad_unifuncional_x_piso": "Cant_unifunc_x_piso",
+          "total_d_unifuncional_edificio": "Total_d_UniFuncional_x_edif",
+          "m2_d_unidadfuncional": "M2_d_UnidadFuncional",
+          "idcdsscc": "idCDSSCC",
+          "pobtotalsscc": "PobTotalSSCC",
+          "cantpersonas_x_edif": "CantPersonas_x_edif",
+          "shape__area": "Shape__Area",
+          "shape__length": "Shape__Length"
+        },
+        "_fieldsMap": {
+          "objectid": {
+            "fieldName": "OBJECTID",
+            "visible": true,
+            "isEditable": false,
+            "label": "OBJECTID"
+          },
+          "pisos": {
+            "fieldName": "Pisos",
+            "visible": true,
+            "isEditable": true,
+            "label": "Pisos"
+          },
+          "usodcn": {
+            "fieldName": "UsoDCN",
+            "visible": true,
+            "isEditable": true,
+            "label": "UsosDCN"
+          },
+          "titularidad": {
+            "fieldName": "Titularidad",
+            "visible": true,
+            "isEditable": true,
+            "label": "Titularidad"
+          },
+          "usodcn2": {
+            "fieldName": "UsoDCN2",
+            "visible": true,
+            "isEditable": true,
+            "label": "Uso DCN2"
+          },
+          "m2totales": {
+            "fieldName": "M2Totales",
+            "visible": true,
+            "isEditable": true,
+            "label": "Total Superficie Cubierta"
+          },
+          "id_constru": {
+            "fieldName": "id_Constru",
+            "visible": true,
+            "isEditable": true,
+            "label": "identificacion de Edificacion"
+          },
+          "dentrodemza": {
+            "fieldName": "dentrodeMZA",
+            "visible": true,
+            "isEditable": true,
+            "label": "dentrodeMZA"
+          },
+          "m2totales_edificacion": {
+            "fieldName": "M2Totales_Edificacion",
+            "visible": true,
+            "isEditable": true,
+            "label": "M2Totales_Edificacion"
+          },
+          "cantidad_unifuncional_x_piso": {
+            "fieldName": "Cantidad_unifuncional_x_piso",
+            "visible": true,
+            "isEditable": true,
+            "label": "Cant_unifunc_x_piso"
+          },
+          "total_d_unifuncional_edificio": {
+            "fieldName": "Total_d_UniFuncional_edificio",
+            "visible": true,
+            "isEditable": true,
+            "label": "Total_d_UniFuncional_x_edif"
+          },
+          "m2_d_unidadfuncional": {
+            "fieldName": "M2_d_UnidadFuncional",
+            "visible": true,
+            "isEditable": true,
+            "label": "M2_d_UnidadFuncional"
+          },
+          "idcdsscc": {
+            "fieldName": "idCDSSCC",
+            "visible": true,
+            "isEditable": true,
+            "label": "idCDSSCC"
+          },
+          "pobtotalsscc": {
+            "fieldName": "PobTotalSSCC",
+            "visible": true,
+            "isEditable": true,
+            "label": "PobTotalSSCC"
+          },
+          "cantpersonas_x_edif": {
+            "fieldName": "CantPersonas_x_edif",
+            "visible": true,
+            "isEditable": true,
+            "label": "CantPersonas_x_edif"
+          },
+          "shape__area": {
+            "fieldName": "Shape__Area",
+            "visible": true,
+            "isEditable": false,
+            "label": "Shape__Area"
+          },
+          "shape__length": {
+            "fieldName": "Shape__Length",
+            "visible": true,
+            "isEditable": false,
+            "label": "Shape__Length"
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"color\":[159,121,218,66],\"outline\":{\"color\":[159,121,218,255],\"width\":0.75,\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\"},\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\"}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(159, 121, 218)\" fill-opacity=\"0.25882352941176473\" stroke=\"rgb(159, 121, 218)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></path></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><path fill=\"rgb(159, 121, 218)\" fill-opacity=\"0.25882352941176473\" stroke=\"rgb(159, 121, 218)\" stroke-opacity=\"1\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojogfxstrokestyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></path></svg></div>"
+    }
+  ],
+  "mapID": "a5284fb9720d4b258dfdc7ed64007670",
+  "mainPanelText": "",
+  "refreshInterval": "",
+  "refreshEnabled": false,
+  "countEnabled": true,
+  "displayPanelIcon": false,
+  "hidePanel": false,
+  "continuousRefreshEnabled": false,
+  "expandList": false,
+  "showAllFeatures": false,
+  "upgradeFields": false
+}

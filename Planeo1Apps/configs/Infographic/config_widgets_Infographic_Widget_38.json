@@ -1,0 +1,196 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "stack",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "activeItemIndex": 0,
+        "height": 100.00000000000003,
+        "content": [
+          {
+            "type": "component",
+            "isClosable": true,
+            "componentName": "jimu grid",
+            "componentState": {
+              "id": "5625926104969428-2"
+            },
+            "reorderEnabled": true,
+            "title": "jimu grid",
+            "id": "5625926104969428-2"
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "5625926104969428-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "5625926104969428-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "pie",
+        "categoryField": "UsoDCN2",
+        "dateConfig": null,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": true
+        },
+        "maxLabels": 100,
+        "backgroundColor": "#fff",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#5d9cd3",
+                  "#a5a5a5",
+                  "#4673c2",
+                  "#285f8f",
+                  "#636363",
+                  "#274577"
+                ]
+              },
+              "name": "pie~not-field",
+              "label": "pie~not-field"
+            }
+          ],
+          "type": "series",
+          "customColor": {
+            "categories": [
+              {
+                "uniqueID": "45097394884259767",
+                "text": "Civico-social",
+                "label": "Civico-social",
+                "color": "#47bcf5",
+                "id": "Civico-social"
+              },
+              {
+                "uniqueID": "14070354208762392",
+                "text": "Deportivo",
+                "label": "Deportivo",
+                "color": "#fbe66a",
+                "id": "Deportivo"
+              },
+              {
+                "uniqueID": "6391112752803756",
+                "text": "Educativo",
+                "label": "Educativo",
+                "color": "#f29157",
+                "id": "Educativo"
+              },
+              {
+                "uniqueID": "7745832511331743",
+                "text": "Equipamiento privado",
+                "label": "Equipamiento privado",
+                "color": "#c8501d",
+                "id": "Equipamiento privado"
+              },
+              {
+                "uniqueID": "06741481487909584",
+                "text": "Intercambiadores",
+                "label": "Intercambiadores",
+                "color": "#2db7c6",
+                "id": "Intercambiadores"
+              }
+            ],
+            "others": [
+              {
+                "uniqueID": "8177194625013007",
+                "text": "Null",
+                "label": "Null",
+                "color": "#808080",
+                "id": "null"
+              },
+              {
+                "uniqueID": "5480708239378362",
+                "text": "Others",
+                "label": "Others",
+                "color": "#808080",
+                "id": "others"
+              }
+            ]
+          }
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "dataLabel": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 9
+          }
+        },
+        "innerRadius": 45
+      }
+    },
+    {
+      "id": "5625926104969428-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "donut",
+  "wid": "5625926104969428",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Manzanas_Interpol",
+    "layerId": "f958eb31880f49c2a443243525e1fe58",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}
